@@ -27,20 +27,13 @@ creatElementDiv = () => {
     return div;
 }
 
-creatElementDiv = () => {
-    const div = document.createElement('div');
-    return div;
-}
-
 adicionaElement = (name, type, img, ability) => {
     const li = creatElementList();
-    const divine = creatElementDiv();
     div.appendChild(li);
     li.classList.add('poke')
     switch (type) {
         case 'grass':
             li.classList.add("grass")
-            divine.innerHTML = "dafajda"
             li.innerHTML = `<div class="chars">
                                 <p>${name[0].toUpperCase() + name.substring(1)}</p>
                                 <p>${type.toUpperCase()}</p>
