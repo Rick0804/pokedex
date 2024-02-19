@@ -22,7 +22,6 @@ creatElementList = () => {
     return li;
 }
 
-
 adicionaElement = (name, type, img, ability) => {
     const li = creatElementList();
     div.appendChild(li);
