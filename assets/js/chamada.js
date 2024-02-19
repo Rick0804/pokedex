@@ -22,10 +22,6 @@ creatElementList = () => {
     return li;
 }
 
-creatElementDiv = () => {
-    const div = document.createElement('div');
-    return div;
-}
 
 adicionaElement = (name, type, img, ability) => {
     const li = creatElementList();
