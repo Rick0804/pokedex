@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto&display=swap');
+
+* {
+    color: black;
+    text-decoration: none;
+    list-style: none;
+    font-family: "Montserrat", sans-serif;
+}
+
+
+.bug {
+    background-color: #91C12F!important;
+}
+
+.grass {
+    background-color: #63BC5A!important;
+}
+
+.dark {
+    background-color: #5A5465!important;
+}
+
+.water {
+    background-color: #5090D6!important;
+}
+
+.dragon {
+    background-color: #0B6DC3!important;
+}
+
+.electric {
+    background-color: #F5D757!important;
+}
+
+.fairy {
+    background-color: #EC8FE6!important;
+}
+
+.ghost {
+    background-color: #5269AD!important;
+}
+
+.fighting  {
+    background-color: #CE416B!important;
+}
+
+.fire {
+    background-color: #FF9D55!important;
+}
+
+.ice {
+    background-color: #73CEC0!important;
+}
+
+.poison {
+    background-color: #B567CE!important;
+}
+
+.flying {
+    background-color: #89AAE3!important;
+}
+
+.normal {
+    background-color: #919AA2!important;
+}
+
+.ground {
+    background-color: #D97845!important;
+}
+
+.steel {
+    background-color: #5A8EA2!important;
+}
+
+.psychic {
+    background-color: #FA7179!important;
+}
+
+.rock { 
+    background-color: #C5B78C;
+}
+
+.poke {
+    display: flex;
+    width: 510px;
+    height: 130px;
+    padding: 50px;
+    border-radius: 20px;
+    margin-top: 20px;
+    position: relative;
+}
+
+img {
+    height: 184px;
+    position: absolute;
+    width: 184px;
+    right: 68px;
+    top: 20px;
+}
+
+.chars {
+    padding-right: 70px;
+}
+
+.chars p:first-child {
+    font-size: 40px;
+    margin: 0;
+
+}
+
+.btn {
+    position: fixed;
+    top: 20px; 
+    right: 20px;
+    padding: 15px;
+    margin: 10px;
+    color: black;
+    border-radius: 5px;
+    right: 0;
+    border: none;
+    cursor: pointer;
+}
